@@ -51,4 +51,10 @@ describe('Funcionalidade: Login', () => {
         cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain', 'Olá, igorkaue7 (não é igorkaue7? Sair)')
         })
     });
+
+    it('deve fazer login com sucesso - usando comandos costumizados', () => {
+        cy.login('Igorkaue7@gmail.com', 'Igorkaue4578.')
+        cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain', 'Olá, igorkaue7 (não é igorkaue7? Sair)')
+
+    });
 })
