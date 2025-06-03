@@ -1,0 +1,20 @@
+[
+    {
+      "nomeProduto": "Abominable Hoodie",
+      "tamanho": "S",
+      "cor": "Red",
+      "quantidade": 5
+    },
+    {
+      "nomeProduto": "Oslo Trek Hoodie",
+      "tamanho": "XS",
+      "cor": "Brown",
+      "quantidade": 3
+    },
+    {
+      "nomeProduto": "Mach Street Sweatshirt",
+      "tamanho": "M",
+      "cor": "Blue",
+      "quantidade": 4
+    }
+]
